@@ -1,0 +1,6 @@
+framework module VerifySpeed_IOS {
+  umbrella header "VerifySpeed_IOS.h"
+  export *
+
+  module * { export * }
+}

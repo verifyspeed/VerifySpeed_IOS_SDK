@@ -1,0 +1,62 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VerifySpeed_IOS
+import Combine
+import Foundation
+import Swift
+import UIKit
+@_exported import VerifySpeed_IOS
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class VerifySpeed {
+  public static let shared: VerifySpeed_IOS.VerifySpeed
+  final public func setClientKey(_ clientKey: Swift.String)
+  final public func startVerification(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, methodType: VerifySpeed_IOS.VerifySpeedMethodType, redirectToStore: Swift.Bool = true)
+  final public func startVerificationWithDeepLink(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, deepLink: Swift.String, verificationKey: Swift.String, methodName: Swift.String, redirectToStore: Swift.Bool = true) throws
+  final public func notifyOnResumed()
+  final public func getUIFromAPI(completion: @escaping (Swift.String?) -> Swift.Void)
+  final public func checkInterruptedSession(callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
+  @objc deinit
+}
+public protocol VerifySpeedListener {
+  func onFail(error: VerifySpeed_IOS.VerifySpeedError)
+  func onSuccess(token: Swift.String)
+}
+public struct VerifySpeedError : Swift.Error {
+  public let message: Swift.String?
+  public let type: VerifySpeed_IOS.VerifySpeedErrorType
+}
+public enum VerifySpeedErrorType {
+  case unknown
+  case server
+  case client
+  case appNotInstalled
+  case verificationFailed
+  case clientKeyNotSet
+  case notFoundVerificationMethod
+  case invalidDeepLink
+  case activeSessionNotFound
+  public var name: Swift.String {
+    get
+  }
+  public static func == (a: VerifySpeed_IOS.VerifySpeedErrorType, b: VerifySpeed_IOS.VerifySpeedErrorType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum VerifySpeedMethodType : Swift.String {
+  case Telegram
+  case WhatsApp
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension VerifySpeed_IOS.VerifySpeedErrorType : Swift.Equatable {}
+extension VerifySpeed_IOS.VerifySpeedErrorType : Swift.Hashable {}
+extension VerifySpeed_IOS.VerifySpeedMethodType : Swift.Equatable {}
+extension VerifySpeed_IOS.VerifySpeedMethodType : Swift.Hashable {}
+extension VerifySpeed_IOS.VerifySpeedMethodType : Swift.RawRepresentable {}
