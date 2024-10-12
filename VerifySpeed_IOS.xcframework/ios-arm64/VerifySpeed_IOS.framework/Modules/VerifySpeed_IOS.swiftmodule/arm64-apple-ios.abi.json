@@ -19,13 +19,6 @@
         "moduleName": "VerifySpeed_IOS"
       },
       {
-        "kind": "Import",
-        "name": "libPhoneNumber_iOS",
-        "printedName": "libPhoneNumber_iOS",
-        "declKind": "Import",
-        "moduleName": "VerifySpeed_IOS"
-      },
-      {
         "kind": "TypeDecl",
         "name": "VerifySpeed",
         "printedName": "VerifySpeed",
@@ -415,7 +408,8 @@
         "moduleName": "VerifySpeed_IOS",
         "declAttributes": [
           "Final",
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -1495,70 +1489,70 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 219,
       "length": 33,
       "value": "\"https:\/\/api.verifyspeed.com\/v1\/\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 370,
+      "offset": 372,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 401,
+      "offset": 403,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 483,
+      "offset": 485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 560,
+      "offset": 562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 2591,
+      "offset": 2593,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 5035,
+      "offset": 5051,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 10048,
+      "offset": 10064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 21096,
+      "offset": 21112,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "Array",
-      "offset": 29078,
+      "offset": 29118,
       "length": 2,
       "value": "[]"
     },

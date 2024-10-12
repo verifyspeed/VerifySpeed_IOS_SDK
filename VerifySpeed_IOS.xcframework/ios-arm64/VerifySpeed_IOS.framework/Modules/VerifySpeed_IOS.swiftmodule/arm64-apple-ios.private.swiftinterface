@@ -9,7 +9,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import libPhoneNumber_iOS
 @_hasMissingDesignatedInitializers final public class VerifySpeed {
   public static let shared: VerifySpeed_IOS.VerifySpeed
   final public func setClientKey(_ clientKey: Swift.String)
