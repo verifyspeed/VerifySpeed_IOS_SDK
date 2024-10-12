@@ -19,6 +19,13 @@
         "moduleName": "VerifySpeed_IOS"
       },
       {
+        "kind": "Import",
+        "name": "libPhoneNumber_iOS",
+        "printedName": "libPhoneNumber_iOS",
+        "declKind": "Import",
+        "moduleName": "VerifySpeed_IOS"
+      },
+      {
         "kind": "TypeDecl",
         "name": "VerifySpeed",
         "printedName": "VerifySpeed",
@@ -105,7 +112,7 @@
           {
             "kind": "Function",
             "name": "startVerification",
-            "printedName": "startVerification(callBackListener:methodType:redirectToStore:)",
+            "printedName": "startVerification(callBackListener:verifySpeedMethodType:redirectToStore:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -133,14 +140,81 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C17startVerification16callBackListener10methodType15redirectToStoreyAA0abH0_p_AA0ab6MethodJ0OSbtF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C17startVerification16callBackListener10methodType15redirectToStoreyAA0abH0_p_AA0ab6MethodJ0OSbtF",
+            "usr": "s:15VerifySpeed_IOS0aB0C17startVerification16callBackListener06verifyB10MethodType15redirectToStoreyAA0abH0_p_AA0abjK0OSbtKF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C17startVerification16callBackListener06verifyB10MethodType15redirectToStoreyAA0abH0_p_AA0abjK0OSbtKF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
               "AccessControl",
               "RawDocComment"
             ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startPhoneNumberVerification",
+            "printedName": "startPhoneNumberVerification(phoneNumber:countryCode:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, VerifySpeed_IOS.VerifySpeedError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, VerifySpeed_IOS.VerifySpeedError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySpeedError",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedError",
+                        "usr": "s:15VerifySpeed_IOS0aB5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VerifySpeed_IOS0aB0C28startPhoneNumberVerification05phoneF011countryCode10completionySS_SSys6ResultOySSAA0aB5ErrorVGctKF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C28startPhoneNumberVerification05phoneF011countryCode10completionySS_SSys6ResultOySSAA0aB5ErrorVGctKF",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -216,6 +290,45 @@
               "Final",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateOTP",
+            "printedName": "validateOTP(callBackListener:verificationKey:otpCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerifySpeedListener",
+                "printedName": "any VerifySpeed_IOS.VerifySpeedListener",
+                "usr": "s:15VerifySpeed_IOS0aB8ListenerP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VerifySpeed_IOS0aB0C11validateOTP16callBackListener15verificationKey7otpCodeyAA0abH0_p_S2StF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C11validateOTP16callBackListener15verificationKey7otpCodeyAA0abH0_p_S2StF",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -908,6 +1021,43 @@
           },
           {
             "kind": "Var",
+            "name": "invalidPhoneNumber",
+            "printedName": "invalidPhoneNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerifySpeed_IOS.VerifySpeedErrorType.Type) -> VerifySpeed_IOS.VerifySpeedErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifySpeedErrorType",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedErrorType",
+                    "usr": "s:15VerifySpeed_IOS0aB9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySpeedErrorType",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedErrorType",
+                        "usr": "s:15VerifySpeed_IOS0aB9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15VerifySpeed_IOS0aB9ErrorTypeO18invalidPhoneNumberyA2CmF",
+            "mangledName": "$s15VerifySpeed_IOS0aB9ErrorTypeO18invalidPhoneNumberyA2CmF",
+            "moduleName": "VerifySpeed_IOS"
+          },
+          {
+            "kind": "Var",
             "name": "name",
             "printedName": "name",
             "children": [
@@ -1168,6 +1318,43 @@
             "moduleName": "VerifySpeed_IOS"
           },
           {
+            "kind": "Var",
+            "name": "SmsOtp",
+            "printedName": "SmsOtp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodType.Type) -> VerifySpeed_IOS.VerifySpeedMethodType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifySpeedMethodType",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
+                    "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySpeedMethodType",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
+                        "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO6SmsOtpyA2CmF",
+            "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO6SmsOtpyA2CmF",
+            "moduleName": "VerifySpeed_IOS"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -1308,63 +1495,70 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 191,
+      "offset": 217,
       "length": 33,
       "value": "\"https:\/\/api.verifyspeed.com\/v1\/\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 259,
+      "offset": 370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 290,
+      "offset": 401,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 372,
+      "offset": 483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 449,
+      "offset": 560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 2469,
+      "offset": 2591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 6845,
+      "offset": 5035,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 12834,
+      "offset": 10048,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "Array",
-      "offset": 20046,
+      "offset": 29078,
       "length": 2,
       "value": "[]"
     },
@@ -1381,6 +1575,13 @@
       "offset": 123,
       "length": 18,
       "value": "\"whatsapp-message\""
+    },
+    {
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 9,
+      "value": "\"sms-otp\""
     }
   ]
 }

@@ -9,12 +9,15 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import libPhoneNumber_iOS
 @_hasMissingDesignatedInitializers final public class VerifySpeed {
   public static let shared: VerifySpeed_IOS.VerifySpeed
   final public func setClientKey(_ clientKey: Swift.String)
-  final public func startVerification(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, methodType: VerifySpeed_IOS.VerifySpeedMethodType, redirectToStore: Swift.Bool = true)
+  final public func startVerification(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, verifySpeedMethodType: VerifySpeed_IOS.VerifySpeedMethodType, redirectToStore: Swift.Bool = true) throws
+  final public func startPhoneNumberVerification(phoneNumber: Swift.String, countryCode: Swift.String, completion: @escaping (Swift.Result<Swift.String, VerifySpeed_IOS.VerifySpeedError>) -> Swift.Void) throws
   final public func startVerificationWithDeepLink(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, deepLink: Swift.String, verificationKey: Swift.String, methodName: Swift.String, redirectToStore: Swift.Bool = true) throws
   final public func notifyOnResumed()
+  final public func validateOTP(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, verificationKey: Swift.String, otpCode: Swift.String)
   final public func getUIFromAPI(completion: @escaping (Swift.String?) -> Swift.Void)
   final public func checkInterruptedSession(callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
   @objc deinit
@@ -37,6 +40,7 @@ public enum VerifySpeedErrorType {
   case notFoundVerificationMethod
   case invalidDeepLink
   case activeSessionNotFound
+  case invalidPhoneNumber
   public var name: Swift.String {
     get
   }
@@ -49,6 +53,7 @@ public enum VerifySpeedErrorType {
 public enum VerifySpeedMethodType : Swift.String {
   case Telegram
   case WhatsApp
+  case SmsOtp
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
