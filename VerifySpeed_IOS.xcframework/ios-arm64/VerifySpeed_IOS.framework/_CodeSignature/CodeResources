@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/Pods_VerifySpeed_IOS.framework/Pods_VerifySpeed_IOS</key>
 		<data>
-		tY09CRjDxN0LwhQvqNP4jyuhMl8=
+		VVOF2mZePM6vSwIwQQnMultovMs=
 		</data>
 		<key>Headers/VerifySpeed_IOS.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mznppqiQyn3vppUzFhur/t/NDoU=
+		N1isdJDX9AgBFUPKMRdBwPKuVkk=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -74,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tY09CRjDxN0LwhQvqNP4jyuhMl8=
+			VVOF2mZePM6vSwIwQQnMultovMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aKr9n7JM1Tfx2Ao3d6p4WcSRILJhePBtHaCUWZqY7tg=
+			FKpbZ9ANyoX0MJ1kaIOvWcjkzaEr6XAvJp2doI+s1YY=
 			</data>
 		</dict>
 		<key>Headers/VerifySpeed_IOS.h</key>
@@ -96,11 +96,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mznppqiQyn3vppUzFhur/t/NDoU=
+			N1isdJDX9AgBFUPKMRdBwPKuVkk=
 			</data>
 			<key>hash2</key>
 			<data>
-			molJP48R++dJ5x4chfCMlzT3l0HUVldZGN9uTcV1x1s=
+			51d6QdW5JWL3vzyr0t7xG27PrJdxfWAd5RKI0mA+2Bg=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
