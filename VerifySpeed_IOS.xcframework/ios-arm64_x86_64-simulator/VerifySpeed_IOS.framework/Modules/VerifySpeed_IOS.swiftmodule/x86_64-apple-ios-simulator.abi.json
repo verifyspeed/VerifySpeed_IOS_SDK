@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "VerifySpeed_IOS",
+    "printedName": "VerifySpeed_IOS",
     "children": [
       {
         "kind": "Import",
@@ -213,7 +213,7 @@
           {
             "kind": "Function",
             "name": "startVerificationWithDeepLink",
-            "printedName": "startVerificationWithDeepLink(callBackListener:deepLink:verificationKey:methodName:redirectToStore:)",
+            "printedName": "startVerificationWithDeepLink(callBackListener:deepLink:verificationKey:n:redirectToStore:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -253,8 +253,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey10methodName15redirectToStoreyAA0abK0_p_S3SSbtKF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey10methodName15redirectToStoreyAA0abK0_p_S3SSbtKF",
+            "usr": "s:15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey1n15redirectToStoreyAA0abK0_p_S3SSbtKF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey1n15redirectToStoreyAA0abK0_p_S3SSbtKF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -411,7 +411,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -486,6 +502,22 @@
         "moduleName": "VerifySpeed_IOS",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -613,6 +645,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -1151,6 +1197,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1372,6 +1432,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1413,112 +1487,91 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 33,
       "value": "\"https:\/\/api.verifyspeed.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 485,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 562,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 2593,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 5051,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 10064,
+      "offset": 10065,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 21112,
+      "offset": 21113,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "Array",
-      "offset": 29158,
+      "offset": 29159,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 84,
       "length": 18,
       "value": "\"telegram-message\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 123,
       "length": 18,
       "value": "\"whatsapp-message\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
-      "kind": "StringLiteral",
-      "offset": 160,
-      "length": 9,
-      "value": "\"sms-otp\""
-    },
-    {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
-      "kind": "StringLiteral",
-      "offset": 84,
-      "length": 18,
-      "value": "\"telegram-message\""
-    },
-    {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
-      "kind": "StringLiteral",
-      "offset": 123,
-      "length": 18,
-      "value": "\"whatsapp-message\""
-    },
-    {
-      "filePath": "\/Users\/rekananwar\/Desktop\/VerifySpeed-IOS-Framework\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 160,
       "length": 9,
