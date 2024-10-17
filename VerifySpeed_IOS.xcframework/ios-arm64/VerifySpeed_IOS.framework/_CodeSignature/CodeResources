@@ -6,11 +6,59 @@
 	<dict>
 		<key>Frameworks/Pods_VerifySpeed_IOS.framework/Info.plist</key>
 		<data>
-		PXnTft12veNC5nu8E0Zis6HiFcY=
+		t1SV1bv/PSZQXv6SE+KjBPaE8NM=
 		</data>
 		<key>Frameworks/Pods_VerifySpeed_IOS.framework/Pods_VerifySpeed_IOS</key>
 		<data>
-		VVOF2mZePM6vSwIwQQnMultovMs=
+		a1cW2Vrj4tte8x+pwVQQtBoHAQI=
+		</data>
+		<key>Frameworks/libswiftCore.dylib</key>
+		<data>
+		JICJrafAqD3vH655qYgfIRx3xsg=
+		</data>
+		<key>Frameworks/libswiftCoreFoundation.dylib</key>
+		<data>
+		gVTIZl9GQMGeW/fBu7n3vNkOkJc=
+		</data>
+		<key>Frameworks/libswiftCoreGraphics.dylib</key>
+		<data>
+		kcwfvpfnalV8AeGFsBmf0otDszk=
+		</data>
+		<key>Frameworks/libswiftCoreImage.dylib</key>
+		<data>
+		cdLH8L6reHn9BygLh7cs70rx6h8=
+		</data>
+		<key>Frameworks/libswiftDarwin.dylib</key>
+		<data>
+		ndNhhoe6uMhtWMgNvc14K4plqCw=
+		</data>
+		<key>Frameworks/libswiftDispatch.dylib</key>
+		<data>
+		Xjawx2wWa9VjveRXG+9/Eczyiyg=
+		</data>
+		<key>Frameworks/libswiftFoundation.dylib</key>
+		<data>
+		6jshqKxHZVVJuX/PCQ9P+7FPmVQ=
+		</data>
+		<key>Frameworks/libswiftMetal.dylib</key>
+		<data>
+		F9LKfEibEPffOVO85obSZn37wPo=
+		</data>
+		<key>Frameworks/libswiftObjectiveC.dylib</key>
+		<data>
+		8TthY0Dz/dJ3ThqxPSGSmJ3LxN0=
+		</data>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<data>
+		l4yD1L0avnozdDcFJ+Bl0woGWGs=
+		</data>
+		<key>Frameworks/libswiftUIKit.dylib</key>
+		<data>
+		G4kGpQ9ENcBh1ZPi2Hj6YqDOJo8=
+		</data>
+		<key>Frameworks/libswiftos.dylib</key>
+		<data>
+		Aikk2Z4M3Vh8LSkkdU4HA2z6VS0=
 		</data>
 		<key>Headers/VerifySpeed_IOS.h</key>
 		<data>
@@ -18,27 +66,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tsfOuQIz4Be0fKYbI72G5xg/7hI=
+		lABJVb/zxJuNxVmMvIzwKEdGIyc=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		N1isdJDX9AgBFUPKMRdBwPKuVkk=
+		wvDzIeob9GT9IqUcCdf+qegxZxE=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		29BWRElp4bVu7tN0LIqAEKX5ovE=
+		9nyujGzxKd+3cN2oH3tOP+96qW0=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		owXjcFpn18XlI3pK4HECUixOwBY=
+		nibL6sSsrv6ioElBgyuEbaeePOo=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		29BWRElp4bVu7tN0LIqAEKX5ovE=
+		9nyujGzxKd+3cN2oH3tOP+96qW0=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ynl8Tf4z7+AkAJy55LVyy2J2CaE=
+		nT5qCwLWHqsd5HAAYHsFpXZNAvk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,22 +111,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PXnTft12veNC5nu8E0Zis6HiFcY=
+			t1SV1bv/PSZQXv6SE+KjBPaE8NM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ouaLWa+x5zO/wDBoEMilmEvTmMKi9pNCYhak3D4Lgw=
+			6K8pN/XBxpiS0nUcs51i4995uZunUpCKMhd9UiyNJWQ=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_VerifySpeed_IOS.framework/Pods_VerifySpeed_IOS</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VVOF2mZePM6vSwIwQQnMultovMs=
+			a1cW2Vrj4tte8x+pwVQQtBoHAQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FKpbZ9ANyoX0MJ1kaIOvWcjkzaEr6XAvJp2doI+s1YY=
+			cVjACdH9O6v9cahkl/Ao5l5oLZTfrhwI479nSlcmffI=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCore.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JICJrafAqD3vH655qYgfIRx3xsg=
+			</data>
+			<key>hash2</key>
+			<data>
+			9GaOIpXuH8B33MiH/9DgY8PlrhxXX2fawed2Xu2DXfQ=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreFoundation.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gVTIZl9GQMGeW/fBu7n3vNkOkJc=
+			</data>
+			<key>hash2</key>
+			<data>
+			k5P9SqzuUI2uPhdQaNRS0wHOYfNeeQPz24Ciyuy/fMY=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreGraphics.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kcwfvpfnalV8AeGFsBmf0otDszk=
+			</data>
+			<key>hash2</key>
+			<data>
+			7xRH7/+2LCb+PXIB5UrC//C2viFQeqLMFWw35R613Sg=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreImage.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cdLH8L6reHn9BygLh7cs70rx6h8=
+			</data>
+			<key>hash2</key>
+			<data>
+			cWoNFt+y46O0tqe0VIDCQFk9HQuYeKO7Ol8Iq8/56fY=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftDarwin.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ndNhhoe6uMhtWMgNvc14K4plqCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			FZ0W2wdUmeJfbMob8WIl9pWcyBg1LKB/tLAkW4LyuGg=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftDispatch.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xjawx2wWa9VjveRXG+9/Eczyiyg=
+			</data>
+			<key>hash2</key>
+			<data>
+			fTnxWuS+TtsO/uvJHbxkgxg4QvJdmbUUdolYoG6nWqc=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftFoundation.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6jshqKxHZVVJuX/PCQ9P+7FPmVQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			LTKWBCDWe1YQCIvrJF0AyimcDUHiGAO0Br/yBsUsMDU=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftMetal.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F9LKfEibEPffOVO85obSZn37wPo=
+			</data>
+			<key>hash2</key>
+			<data>
+			zzJfNGg+BvLGnkcNr9xLaHrLPYVYmUdfqrI1TGNFz5A=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftObjectiveC.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8TthY0Dz/dJ3ThqxPSGSmJ3LxN0=
+			</data>
+			<key>hash2</key>
+			<data>
+			CtRiP5cczUIDoatVdeD4f+3zx8bxfiWc1gJMapyneMc=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l4yD1L0avnozdDcFJ+Bl0woGWGs=
+			</data>
+			<key>hash2</key>
+			<data>
+			nLR2Ou+bKLvHGFvSHDZVzowYnkHE/eoNk4aQaWqr6cU=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftUIKit.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G4kGpQ9ENcBh1ZPi2Hj6YqDOJo8=
+			</data>
+			<key>hash2</key>
+			<data>
+			jSTf1qv7ROkNRpG3L9TMBRy3uXBI77VCUYdNRg1lVjM=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftos.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Aikk2Z4M3Vh8LSkkdU4HA2z6VS0=
+			</data>
+			<key>hash2</key>
+			<data>
+			38XrlFqLO+K3HYgPnlh07nxIeWmcMRI8/IEIdjPR/xQ=
 			</data>
 		</dict>
 		<key>Headers/VerifySpeed_IOS.h</key>
@@ -96,55 +276,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N1isdJDX9AgBFUPKMRdBwPKuVkk=
+			wvDzIeob9GT9IqUcCdf+qegxZxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			51d6QdW5JWL3vzyr0t7xG27PrJdxfWAd5RKI0mA+2Bg=
+			1O0PzdwYgqzxTXZJxwrJZGFk7FsazNwUKpnmvlliF4g=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			29BWRElp4bVu7tN0LIqAEKX5ovE=
+			9nyujGzxKd+3cN2oH3tOP+96qW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EZmOvTZlVXvCerqvPSU97NgqroL6409rMDTJD3xs3n0=
+			9qF9LiWySlhAd/8yIHlwNCYODvkWWL9I1kebjH5JRRM=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			owXjcFpn18XlI3pK4HECUixOwBY=
+			nibL6sSsrv6ioElBgyuEbaeePOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			LYXpSk376+7wC2sJA1ut9xmjI7Dhk55pb2M6MmqSxwE=
+			oFWwTMz5CFH32/2do87MaHnSwuJK+SAOO5dYjFGuNvw=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			29BWRElp4bVu7tN0LIqAEKX5ovE=
+			9nyujGzxKd+3cN2oH3tOP+96qW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EZmOvTZlVXvCerqvPSU97NgqroL6409rMDTJD3xs3n0=
+			9qF9LiWySlhAd/8yIHlwNCYODvkWWL9I1kebjH5JRRM=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ynl8Tf4z7+AkAJy55LVyy2J2CaE=
+			nT5qCwLWHqsd5HAAYHsFpXZNAvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			UPzgu2JwVcnXgNp3uKNn7SI+t/iUSGF8u4exrFdzoSM=
+			gn3gzRicgGG7co9hA1N909/WJ+Bh2GmfnwP+dwWWuos=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
