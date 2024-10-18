@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'VerifySpeed_IOS_SDK'
-  spec.version      = '1.0.9'
+  spec.version      = '1.0.10'
   spec.summary      = 'A brief description of VerifySpeed_IOS_SDK.'
   spec.description  = 'A more detailed description of VerifySpeed_IOS_SDK.'
   spec.homepage     = 'https://github.com/verifyspeed/VerifySpeed_IOS_SDK.git'

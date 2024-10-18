@@ -213,7 +213,7 @@
           {
             "kind": "Function",
             "name": "startVerificationWithDeepLink",
-            "printedName": "startVerificationWithDeepLink(callBackListener:deepLink:verificationKey:n:redirectToStore:)",
+            "printedName": "startVerificationWithDeepLink(callBackListener:deepLink:verificationKey:methodName:redirectToStore:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -253,8 +253,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey1n15redirectToStoreyAA0abK0_p_S3SSbtKF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey1n15redirectToStoreyAA0abK0_p_S3SSbtKF",
+            "usr": "s:15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey10methodName15redirectToStoreyAA0abK0_p_S3SSbtKF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C29startVerificationWithDeepLink16callBackListener04deepH015verificationKey10methodName15redirectToStoreyAA0abK0_p_S3SSbtKF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -1538,21 +1538,21 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 10065,
+      "offset": 10064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 21113,
+      "offset": 21112,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "Array",
-      "offset": 29159,
+      "offset": 29158,
       "length": 2,
       "value": "[]"
     },

@@ -14,7 +14,7 @@ import _SwiftConcurrencyShims
   final public func setClientKey(_ clientKey: Swift.String)
   final public func startVerification(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, verifySpeedMethodType: VerifySpeed_IOS.VerifySpeedMethodType, redirectToStore: Swift.Bool = true) throws
   final public func startPhoneNumberVerification(phoneNumber: Swift.String, countryCode: Swift.String, completion: @escaping (Swift.Result<Swift.String, VerifySpeed_IOS.VerifySpeedError>) -> Swift.Void) throws
-  final public func startVerificationWithDeepLink(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, deepLink: Swift.String, verificationKey: Swift.String, n methodName: Swift.String, redirectToStore: Swift.Bool = true) throws
+  final public func startVerificationWithDeepLink(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, deepLink: Swift.String, verificationKey: Swift.String, methodName: Swift.String, redirectToStore: Swift.Bool = true) throws
   final public func notifyOnResumed()
   final public func validateOTP(callBackListener: any VerifySpeed_IOS.VerifySpeedListener, verificationKey: Swift.String, otpCode: Swift.String)
   final public func getUIFromAPI(completion: @escaping (Swift.String?) -> Swift.Void)
