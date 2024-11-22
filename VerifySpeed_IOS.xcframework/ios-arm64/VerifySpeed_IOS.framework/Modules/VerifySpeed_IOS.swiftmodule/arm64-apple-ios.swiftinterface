@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VerifySpeed_IOS
 import Foundation
 import Swift
@@ -11,7 +11,7 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers final public class VerifySpeed {
   public static let shared: VerifySpeed_IOS.VerifySpeed
   final public func setClientKey(_ clientKey: Swift.String)
-  final public func verifyPhoneNumberWithDeepLink(deeplink: Swift.String, verificationKey: Swift.String, redirectToStore: Swift.Bool = true, callBackListener: any VerifySpeed_IOS.VerifySpeedListener) throws
+  final public func verifyPhoneNumberWithDeepLink(deeplink: Swift.String, verificationKey: Swift.String, redirectToStore: Swift.Bool = true, callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
   final public func verifyPhoneNumberWithOtp(phoneNumber: Swift.String, verificationKey: Swift.String, completion: @escaping (Swift.Result<Swift.Void, VerifySpeed_IOS.VerifySpeedError>) -> Swift.Void)
   final public func notifyOnResumed()
   final public func validateOTP(otpCode: Swift.String, verificationKey: Swift.String, callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
@@ -47,10 +47,10 @@ public enum VerifySpeedErrorType {
     get
   }
 }
-public enum VerifySpeedMethodType : Swift.String {
+public enum VerifySpeedMethodDeepLinkType : Swift.String {
   case Telegram
   case WhatsApp
-  case SmsOtp
+  case Viber
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -59,6 +59,6 @@ public enum VerifySpeedMethodType : Swift.String {
 }
 extension VerifySpeed_IOS.VerifySpeedErrorType : Swift.Equatable {}
 extension VerifySpeed_IOS.VerifySpeedErrorType : Swift.Hashable {}
-extension VerifySpeed_IOS.VerifySpeedMethodType : Swift.Equatable {}
-extension VerifySpeed_IOS.VerifySpeedMethodType : Swift.Hashable {}
-extension VerifySpeed_IOS.VerifySpeedMethodType : Swift.RawRepresentable {}
+extension VerifySpeed_IOS.VerifySpeedMethodDeepLinkType : Swift.Equatable {}
+extension VerifySpeed_IOS.VerifySpeedMethodDeepLinkType : Swift.Hashable {}
+extension VerifySpeed_IOS.VerifySpeedMethodDeepLinkType : Swift.RawRepresentable {}

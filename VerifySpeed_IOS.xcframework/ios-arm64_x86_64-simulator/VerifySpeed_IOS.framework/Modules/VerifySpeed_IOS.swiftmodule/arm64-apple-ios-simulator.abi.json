@@ -131,14 +131,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C29verifyPhoneNumberWithDeepLink8deeplink15verificationKey15redirectToStore16callBackListenerySS_SSSbAA0abR0_ptKF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C29verifyPhoneNumberWithDeepLink8deeplink15verificationKey15redirectToStore16callBackListenerySS_SSSbAA0abR0_ptKF",
+            "usr": "s:15VerifySpeed_IOS0aB0C29verifyPhoneNumberWithDeepLink8deeplink15verificationKey15redirectToStore16callBackListenerySS_SSSbAA0abR0_ptF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C29verifyPhoneNumberWithDeepLink8deeplink15verificationKey15redirectToStore16callBackListenerySS_SSSbAA0abR0_ptF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1172,8 +1171,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VerifySpeedMethodType",
-        "printedName": "VerifySpeedMethodType",
+        "name": "VerifySpeedMethodDeepLinkType",
+        "printedName": "VerifySpeedMethodDeepLinkType",
         "children": [
           {
             "kind": "Var",
@@ -1183,24 +1182,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodType.Type) -> VerifySpeed_IOS.VerifySpeedMethodType",
+                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodDeepLinkType.Type) -> VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VerifySpeedMethodType",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                    "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                    "name": "VerifySpeedMethodDeepLinkType",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                    "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType.Type",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VerifySpeedMethodType",
-                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                        "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                        "name": "VerifySpeedMethodDeepLinkType",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                        "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                       }
                     ]
                   }
@@ -1208,8 +1207,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO8TelegramyA2CmF",
-            "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO8TelegramyA2CmF",
+            "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8TelegramyA2CmF",
+            "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8TelegramyA2CmF",
             "moduleName": "VerifySpeed_IOS"
           },
           {
@@ -1220,24 +1219,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodType.Type) -> VerifySpeed_IOS.VerifySpeedMethodType",
+                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodDeepLinkType.Type) -> VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VerifySpeedMethodType",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                    "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                    "name": "VerifySpeedMethodDeepLinkType",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                    "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType.Type",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VerifySpeedMethodType",
-                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                        "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                        "name": "VerifySpeedMethodDeepLinkType",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                        "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                       }
                     ]
                   }
@@ -1245,36 +1244,36 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO8WhatsAppyA2CmF",
-            "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO8WhatsAppyA2CmF",
+            "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8WhatsAppyA2CmF",
+            "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8WhatsAppyA2CmF",
             "moduleName": "VerifySpeed_IOS"
           },
           {
             "kind": "Var",
-            "name": "SmsOtp",
-            "printedName": "SmsOtp",
+            "name": "Viber",
+            "printedName": "Viber",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodType.Type) -> VerifySpeed_IOS.VerifySpeedMethodType",
+                "printedName": "(VerifySpeed_IOS.VerifySpeedMethodDeepLinkType.Type) -> VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VerifySpeedMethodType",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                    "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                    "name": "VerifySpeedMethodDeepLinkType",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                    "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType.Type",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VerifySpeedMethodType",
-                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                        "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                        "name": "VerifySpeedMethodDeepLinkType",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                        "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                       }
                     ]
                   }
@@ -1282,8 +1281,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO6SmsOtpyA2CmF",
-            "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO6SmsOtpyA2CmF",
+            "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO5ViberyA2CmF",
+            "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO5ViberyA2CmF",
             "moduleName": "VerifySpeed_IOS"
           },
           {
@@ -1294,13 +1293,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VerifySpeed_IOS.VerifySpeedMethodType?",
+                "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VerifySpeedMethodType",
-                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodType",
-                    "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO"
+                    "name": "VerifySpeedMethodDeepLinkType",
+                    "printedName": "VerifySpeed_IOS.VerifySpeedMethodDeepLinkType",
+                    "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -1313,8 +1312,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO8rawValueACSgSS_tcfc",
+            "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8rawValueACSgSS_tcfc",
             "moduleName": "VerifySpeed_IOS",
             "implicit": true,
             "init_kind": "Designated"
@@ -1332,8 +1331,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO8rawValueSSvp",
-            "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO8rawValueSSvp",
+            "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8rawValueSSvp",
+            "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8rawValueSSvp",
             "moduleName": "VerifySpeed_IOS",
             "implicit": true,
             "accessors": [
@@ -1350,8 +1349,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO8rawValueSSvg",
-                "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO8rawValueSSvg",
+                "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8rawValueSSvg",
+                "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO8rawValueSSvg",
                 "moduleName": "VerifySpeed_IOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1360,8 +1359,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:15VerifySpeed_IOS0aB10MethodTypeO",
-        "mangledName": "$s15VerifySpeed_IOS0aB10MethodTypeO",
+        "usr": "s:15VerifySpeed_IOS0aB18MethodDeepLinkTypeO",
+        "mangledName": "$s15VerifySpeed_IOS0aB18MethodDeepLinkTypeO",
         "moduleName": "VerifySpeed_IOS",
         "declAttributes": [
           "AccessControl"
@@ -1469,30 +1468,30 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 13936,
+      "offset": 13684,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
-      "offset": 84,
+      "offset": 91,
       "length": 18,
       "value": "\"telegram-message\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
-      "offset": 123,
+      "offset": 130,
       "length": 18,
       "value": "\"whatsapp-message\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
-      "offset": 160,
-      "length": 9,
-      "value": "\"sms-otp\""
+      "offset": 166,
+      "length": 15,
+      "value": "\"viber-message\""
     }
   ]
 }
