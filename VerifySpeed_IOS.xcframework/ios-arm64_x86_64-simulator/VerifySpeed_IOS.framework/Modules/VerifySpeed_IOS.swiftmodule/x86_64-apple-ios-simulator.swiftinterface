@@ -15,7 +15,7 @@ import _SwiftConcurrencyShims
   final public func verifyPhoneNumberWithOtp(phoneNumber: Swift.String, verificationKey: Swift.String, completion: @escaping (Swift.Result<Swift.Void, VerifySpeed_IOS.VerifySpeedError>) -> Swift.Void)
   final public func notifyOnResumed()
   final public func validateOTP(otpCode: Swift.String, verificationKey: Swift.String, callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
-  final public func getUIFromAPI(completion: @escaping (Swift.String?) -> Swift.Void)
+  final public func initialize(completion: @escaping (Swift.String?) -> Swift.Void)
   final public func checkInterruptedSession(callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
   @objc deinit
 }

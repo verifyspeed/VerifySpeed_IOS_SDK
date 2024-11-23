@@ -267,8 +267,8 @@
           },
           {
             "kind": "Function",
-            "name": "getUIFromAPI",
-            "printedName": "getUIFromAPI(completion:)",
+            "name": "initialize",
+            "printedName": "initialize(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -303,8 +303,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C12getUIFromAPI10completionyySSSgc_tF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C12getUIFromAPI10completionyySSSgc_tF",
+            "usr": "s:15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -1468,7 +1468,7 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 13684,
+      "offset": 13612,
       "length": 4,
       "value": "true"
     },
