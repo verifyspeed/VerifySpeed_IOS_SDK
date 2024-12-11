@@ -303,13 +303,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tF",
+            "usr": "s:15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tKF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tKF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -332,6 +333,27 @@
             "declKind": "Func",
             "usr": "s:15VerifySpeed_IOS0aB0C23checkInterruptedSession16callBackListeneryAA0abI0_p_tF",
             "mangledName": "$s15VerifySpeed_IOS0aB0C23checkInterruptedSession16callBackListeneryAA0abI0_p_tF",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCachedSession",
+            "printedName": "clearCachedSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VerifySpeed_IOS0aB0C18clearCachedSessionyyF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C18clearCachedSessionyyF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -1433,42 +1455,42 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 325,
+      "offset": 244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
-      "offset": 356,
+      "offset": 275,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 438,
+      "offset": 357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 471,
+      "offset": 390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 718,
+      "offset": 637,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 13612,
+      "offset": 14033,
       "length": 4,
       "value": "true"
     },
