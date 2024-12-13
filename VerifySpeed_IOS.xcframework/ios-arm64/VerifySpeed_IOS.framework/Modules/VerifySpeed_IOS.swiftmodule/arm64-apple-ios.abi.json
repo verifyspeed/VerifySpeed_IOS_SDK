@@ -316,7 +316,7 @@
           {
             "kind": "Function",
             "name": "checkInterruptedSession",
-            "printedName": "checkInterruptedSession(callBackListener:)",
+            "printedName": "checkInterruptedSession(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -324,36 +324,35 @@
                 "printedName": "()"
               },
               {
-                "kind": "TypeNominal",
-                "name": "VerifySpeedListener",
-                "printedName": "any VerifySpeed_IOS.VerifySpeedListener",
-                "usr": "s:15VerifySpeed_IOS0aB8ListenerP"
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C23checkInterruptedSession16callBackListeneryAA0abI0_p_tF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C23checkInterruptedSession16callBackListeneryAA0abI0_p_tF",
-            "moduleName": "VerifySpeed_IOS",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearCachedSession",
-            "printedName": "clearCachedSession()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C18clearCachedSessionyyF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C18clearCachedSessionyyF",
+            "usr": "s:15VerifySpeed_IOS0aB0C23checkInterruptedSession10completionyySSSgc_tF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C23checkInterruptedSession10completionyySSSgc_tF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -1490,7 +1489,7 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 13729,
+      "offset": 13762,
       "length": 4,
       "value": "true"
     },

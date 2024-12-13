@@ -16,8 +16,7 @@ import _SwiftConcurrencyShims
   final public func notifyOnResumed()
   final public func validateOTP(otpCode: Swift.String, verificationKey: Swift.String, callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
   final public func initialize(completion: @escaping (Swift.String?) -> Swift.Void) throws
-  final public func checkInterruptedSession(callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
-  final public func clearCachedSession()
+  final public func checkInterruptedSession(completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
 public protocol VerifySpeedListener {
