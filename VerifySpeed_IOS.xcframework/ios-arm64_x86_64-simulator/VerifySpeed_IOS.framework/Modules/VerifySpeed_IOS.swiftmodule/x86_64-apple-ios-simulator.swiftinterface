@@ -24,6 +24,8 @@ public protocol VerifySpeedListener {
   func onSuccess(token: Swift.String)
 }
 public struct MethodModel : Swift.Codable {
+  public let methodName: Swift.String
+  public let displayName: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
