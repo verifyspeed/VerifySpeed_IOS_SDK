@@ -96,6 +96,54 @@
           },
           {
             "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([VerifySpeed_IOS.MethodModel]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[VerifySpeed_IOS.MethodModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MethodModel",
+                        "printedName": "VerifySpeed_IOS.MethodModel",
+                        "usr": "s:15VerifySpeed_IOS11MethodModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VerifySpeed_IOS0aB0C10initialize10completionyySayAA11MethodModelVGc_tKF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C10initialize10completionyySayAA11MethodModelVGc_tKF",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "verifyPhoneNumberWithDeepLink",
             "printedName": "verifyPhoneNumberWithDeepLink(deeplink:verificationKey:redirectToStore:callBackListener:)",
             "children": [
@@ -267,54 +315,6 @@
           },
           {
             "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tKF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C10initialize10completionyySSSgc_tKF",
-            "moduleName": "VerifySpeed_IOS",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "checkInterruptedSession",
             "printedName": "checkInterruptedSession(completion:)",
             "children": [
@@ -475,6 +475,108 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VerifySpeed_IOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MethodModel",
+        "printedName": "MethodModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MethodModel",
+                "printedName": "VerifySpeed_IOS.MethodModel",
+                "usr": "s:15VerifySpeed_IOS11MethodModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VerifySpeed_IOS11MethodModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15VerifySpeed_IOS11MethodModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VerifySpeed_IOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VerifySpeed_IOS11MethodModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15VerifySpeed_IOS11MethodModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VerifySpeed_IOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15VerifySpeed_IOS11MethodModelV",
+        "mangledName": "$s15VerifySpeed_IOS11MethodModelV",
+        "moduleName": "VerifySpeed_IOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -1482,14 +1584,14 @@
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 637,
+      "offset": 4324,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 13868,
+      "offset": 14274,
       "length": 4,
       "value": "true"
     },

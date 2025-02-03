@@ -11,17 +11,21 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers final public class VerifySpeed {
   public static let shared: VerifySpeed_IOS.VerifySpeed
   final public func setClientKey(_ clientKey: Swift.String)
+  final public func initialize(completion: @escaping ([VerifySpeed_IOS.MethodModel]) -> Swift.Void) throws
   final public func verifyPhoneNumberWithDeepLink(deeplink: Swift.String, verificationKey: Swift.String, redirectToStore: Swift.Bool = true, callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
   final public func verifyPhoneNumberWithOtp(phoneNumber: Swift.String, verificationKey: Swift.String, completion: @escaping (Swift.Result<Swift.Void, VerifySpeed_IOS.VerifySpeedError>) -> Swift.Void)
   final public func notifyOnResumed()
   final public func validateOTP(otpCode: Swift.String, verificationKey: Swift.String, callBackListener: any VerifySpeed_IOS.VerifySpeedListener)
-  final public func initialize(completion: @escaping (Swift.String?) -> Swift.Void) throws
   final public func checkInterruptedSession(completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
 public protocol VerifySpeedListener {
   func onFail(error: VerifySpeed_IOS.VerifySpeedError)
   func onSuccess(token: Swift.String)
+}
+public struct MethodModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct VerifySpeedError : Swift.Error {
   public let message: Swift.String?
