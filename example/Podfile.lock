@@ -1,0 +1,25 @@
+PODS:
+  - PhoneNumberKit (4.0.1):
+    - PhoneNumberKit/PhoneNumberKitCore (= 4.0.1)
+    - PhoneNumberKit/UIKit (= 4.0.1)
+  - PhoneNumberKit/PhoneNumberKitCore (4.0.1)
+  - PhoneNumberKit/UIKit (4.0.1):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - VerifySpeed_IOS_SDK (1.0.22)
+
+DEPENDENCIES:
+  - PhoneNumberKit (~> 4.0.1)
+  - VerifySpeed_IOS_SDK (~> 1.0.20)
+
+SPEC REPOS:
+  trunk:
+    - PhoneNumberKit
+    - VerifySpeed_IOS_SDK
+
+SPEC CHECKSUMS:
+  PhoneNumberKit: a74155066daa6450475f6a029068eb919fb00d5d
+  VerifySpeed_IOS_SDK: 23097575fa93eec5cf3ae2c6aa0153ff95510efc
+
+PODFILE CHECKSUM: 79cdd96c3904e1df44e1769cdd9839be2db7afab
+
+COCOAPODS: 1.16.2
