@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tJJNRzWNP6s0fIMHoYNRP8QLASs=
+		FVA3KZM4jkGPZXNtnxwEmTKuV58=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Us66VHixWWjOoQU1exjUeAHl3zk=
+		4MZXeDRIKlBp9l7PKQIOc2Ofz9w=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tJJNRzWNP6s0fIMHoYNRP8QLASs=
+		FVA3KZM4jkGPZXNtnxwEmTKuV58=
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RyyFT/UdEcs2unyDWxDxcTAzHTk=
+		f4vjELZA5j2Go4eBfMTFgNE1wz4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,11 +86,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tJJNRzWNP6s0fIMHoYNRP8QLASs=
+			FVA3KZM4jkGPZXNtnxwEmTKuV58=
 			</data>
 			<key>hash2</key>
 			<data>
-			fHnkbpV4Ij+m7F6aX/niH8SQLqhXIQWmbvvxFUpJkZ0=
+			ndEaiOoPHg5yCSQUxuC2/Ley6/S1PEtw/JxiEY9AUYo=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -130,22 +130,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Us66VHixWWjOoQU1exjUeAHl3zk=
+			4MZXeDRIKlBp9l7PKQIOc2Ofz9w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ujg1Z+adCvZoobLsto/P0Wb5psvYRPj7x06Hq1/8Q2o=
+			fDhPSWloJBwc477YyjSWbGcxjdGzidkS9MN43NDXUDU=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tJJNRzWNP6s0fIMHoYNRP8QLASs=
+			FVA3KZM4jkGPZXNtnxwEmTKuV58=
 			</data>
 			<key>hash2</key>
 			<data>
-			fHnkbpV4Ij+m7F6aX/niH8SQLqhXIQWmbvvxFUpJkZ0=
+			ndEaiOoPHg5yCSQUxuC2/Ley6/S1PEtw/JxiEY9AUYo=
 			</data>
 		</dict>
 		<key>Modules/VerifySpeed_IOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RyyFT/UdEcs2unyDWxDxcTAzHTk=
+			f4vjELZA5j2Go4eBfMTFgNE1wz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			IDLEjSYcV4pl+5HrSaGbJLlHytknwxHCT+tT9SF8jus=
+			9qlXjnsOxOf+dPfQf8MqwiVtd/Sij2HqJjBGXNsx/6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
