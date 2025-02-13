@@ -1,0 +1,6 @@
+framework module Pods_Example_UI_Kit {
+  umbrella header "Pods-Example UI Kit-umbrella.h"
+
+  export *
+  module * { export * }
+}

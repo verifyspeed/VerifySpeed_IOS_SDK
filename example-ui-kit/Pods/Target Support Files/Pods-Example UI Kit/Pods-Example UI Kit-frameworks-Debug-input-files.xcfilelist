@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Example UI Kit/Pods-Example UI Kit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/VerifySpeed_IOS_SDK/VerifySpeed_IOS.framework/VerifySpeed_IOS
