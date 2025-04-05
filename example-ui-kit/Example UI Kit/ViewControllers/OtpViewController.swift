@@ -36,7 +36,7 @@ class OtpViewController: UIViewController {
         view.addSubview(stackView)
         
         // Configure OTP text field
-        otpTextField.placeholder = "Enter 6-digit OTP"
+        otpTextField.placeholder = "Enter 5-digit OTP"
         otpTextField.borderStyle = .roundedRect
         otpTextField.keyboardType = .numberPad
         otpTextField.addTarget(self, action: #selector(otpTextChanged), for: .editingChanged)
@@ -85,7 +85,7 @@ class OtpViewController: UIViewController {
     }
     
     @objc private func otpTextChanged() {
-        verifyButton.isEnabled = otpTextField.text?.count == 6
+        verifyButton.isEnabled = otpTextField.text?.count == 5
     }
     
     @objc private func verifyButtonTapped() {
@@ -104,7 +104,7 @@ class OtpViewController: UIViewController {
             verifyButton.isEnabled = false
         } else {
             activityIndicator.stopAnimating()
-            verifyButton.isEnabled = otpTextField.text?.count == 6
+            verifyButton.isEnabled = otpTextField.text?.count == 5
         }
     }
     

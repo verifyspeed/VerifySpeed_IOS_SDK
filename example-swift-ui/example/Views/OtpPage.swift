@@ -9,7 +9,7 @@ struct OtpPage: View {
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
-                TextField("Enter 6-digit OTP", text: $viewModel.otpCode)
+                TextField("Enter 5-digit OTP", text: $viewModel.otpCode)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .keyboardType(.numberPad)
                     .padding()
@@ -20,7 +20,7 @@ struct OtpPage: View {
                     }
                 }
                 .buttonStyle(.borderedProminent)
-                .disabled(viewModel.otpCode.isEmpty || viewModel.otpCode.count != 6)
+                .disabled(viewModel.otpCode.isEmpty || viewModel.otpCode.count != 5)
                 
                 if viewModel.isLoading && !viewModel.showSuccessDialog {
                     ProgressView()
