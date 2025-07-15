@@ -213,7 +213,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), VerifySpeed_IOS.VerifySpeedError>) -> ()",
+                "printedName": "(Swift.Result<VerifySpeed_IOS.OtpResponseModel, VerifySpeed_IOS.VerifySpeedError>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -223,12 +223,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), VerifySpeed_IOS.VerifySpeedError>",
+                    "printedName": "Swift.Result<VerifySpeed_IOS.OtpResponseModel, VerifySpeed_IOS.VerifySpeedError>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "OtpResponseModel",
+                        "printedName": "VerifySpeed_IOS.OtpResponseModel",
+                        "usr": "s:15VerifySpeed_IOS16OtpResponseModelV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -243,8 +244,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VerifySpeed_IOS0aB0C24verifyPhoneNumberWithOtp05phoneF015verificationKey10completionySS_SSys6ResultOyytAA0aB5ErrorVGctF",
-            "mangledName": "$s15VerifySpeed_IOS0aB0C24verifyPhoneNumberWithOtp05phoneF015verificationKey10completionySS_SSys6ResultOyytAA0aB5ErrorVGctF",
+            "usr": "s:15VerifySpeed_IOS0aB0C24verifyPhoneNumberWithOtp05phoneF015verificationKey10completionySS_SSys6ResultOyAA0H13ResponseModelVAA0aB5ErrorVGctF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C24verifyPhoneNumberWithOtp05phoneF015verificationKey10completionySS_SSys6ResultOyAA0H13ResponseModelVAA0aB5ErrorVGctF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -306,6 +307,65 @@
             "declKind": "Func",
             "usr": "s:15VerifySpeed_IOS0aB0C11validateOTP7otpCode15verificationKey16callBackListenerySS_SSAA0abL0_ptF",
             "mangledName": "$s15VerifySpeed_IOS0aB0C11validateOTP7otpCode15verificationKey16callBackListenerySS_SSAA0abL0_ptF",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendNextDynamicOtp",
+            "printedName": "sendNextDynamicOtp(verificationKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<VerifySpeed_IOS.OtpResponseModel, VerifySpeed_IOS.VerifySpeedError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<VerifySpeed_IOS.OtpResponseModel, VerifySpeed_IOS.VerifySpeedError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpResponseModel",
+                        "printedName": "VerifySpeed_IOS.OtpResponseModel",
+                        "usr": "s:15VerifySpeed_IOS16OtpResponseModelV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySpeedError",
+                        "printedName": "VerifySpeed_IOS.VerifySpeedError",
+                        "usr": "s:15VerifySpeed_IOS0aB5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VerifySpeed_IOS0aB0C18sendNextDynamicOtp15verificationKey10completionySS_ys6ResultOyAA0G13ResponseModelVAA0aB5ErrorVGctF",
+            "mangledName": "$s15VerifySpeed_IOS0aB0C18sendNextDynamicOtp15verificationKey10completionySS_ys6ResultOyAA0G13ResponseModelVAA0aB5ErrorVGctF",
             "moduleName": "VerifySpeed_IOS",
             "declAttributes": [
               "Final",
@@ -1629,76 +1689,324 @@
             "mangledName": "$sSY"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VerifySpeed_IOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OtpResponseModel",
+        "printedName": "OtpResponseModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verificationKey",
+            "printedName": "verificationKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VerifySpeed_IOS16OtpResponseModelV15verificationKeySSvp",
+            "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV15verificationKeySSvp",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VerifySpeed_IOS16OtpResponseModelV15verificationKeySSvg",
+                "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV15verificationKeySSvg",
+                "moduleName": "VerifySpeed_IOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sentByMethodDisplay",
+            "printedName": "sentByMethodDisplay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VerifySpeed_IOS16OtpResponseModelV19sentByMethodDisplaySSvp",
+            "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV19sentByMethodDisplaySSvp",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VerifySpeed_IOS16OtpResponseModelV19sentByMethodDisplaySSvg",
+                "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV19sentByMethodDisplaySSvg",
+                "moduleName": "VerifySpeed_IOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sentByMethodName",
+            "printedName": "sentByMethodName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VerifySpeed_IOS16OtpResponseModelV16sentByMethodNameSSvp",
+            "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV16sentByMethodNameSSvp",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VerifySpeed_IOS16OtpResponseModelV16sentByMethodNameSSvg",
+                "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV16sentByMethodNameSSvg",
+                "moduleName": "VerifySpeed_IOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nextSendAvailableAt",
+            "printedName": "nextSendAvailableAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VerifySpeed_IOS16OtpResponseModelV19nextSendAvailableAt10Foundation4DateVvp",
+            "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV19nextSendAvailableAt10Foundation4DateVvp",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VerifySpeed_IOS16OtpResponseModelV19nextSendAvailableAt10Foundation4DateVvg",
+                "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV19nextSendAvailableAt10Foundation4DateVvg",
+                "moduleName": "VerifySpeed_IOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OtpResponseModel",
+                "printedName": "VerifySpeed_IOS.OtpResponseModel",
+                "usr": "s:15VerifySpeed_IOS16OtpResponseModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VerifySpeed_IOS16OtpResponseModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15VerifySpeed_IOS16OtpResponseModelV",
+        "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV",
+        "moduleName": "VerifySpeed_IOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 33,
       "value": "\"https:\/\/api.verifyspeed.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 357,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 390,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 4158,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
-      "offset": 14108,
+      "offset": 17103,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 91,
       "length": 18,
       "value": "\"telegram-message\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 18,
       "value": "\"whatsapp-message\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/New-Verify-Speed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 15,
