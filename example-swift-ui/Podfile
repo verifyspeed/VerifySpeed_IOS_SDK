@@ -9,7 +9,7 @@ target 'example' do
   pod 'PhoneNumberKit', '~> 4.0.1'
 
   #* Add VerifySpeed_IOS_SDK
-  pod 'VerifySpeed_IOS_SDK', '~> 1.0.23'
+  pod 'VerifySpeed_IOS_SDK', '~> 1.0.24'
 
 end
 

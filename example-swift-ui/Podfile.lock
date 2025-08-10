@@ -5,7 +5,7 @@ PODS:
   - PhoneNumberKit/PhoneNumberKitCore (4.0.1)
   - PhoneNumberKit/UIKit (4.0.1):
     - PhoneNumberKit/PhoneNumberKitCore
-  - VerifySpeed_IOS_SDK (1.0.23)
+  - VerifySpeed_IOS_SDK (1.0.24)
 
 DEPENDENCIES:
   - PhoneNumberKit (~> 4.0.1)

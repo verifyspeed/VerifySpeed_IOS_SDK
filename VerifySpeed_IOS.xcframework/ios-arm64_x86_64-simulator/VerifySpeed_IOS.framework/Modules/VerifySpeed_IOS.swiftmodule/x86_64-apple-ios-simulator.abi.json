@@ -1836,6 +1836,50 @@
           },
           {
             "kind": "Var",
+            "name": "nextSendMethodName",
+            "printedName": "nextSendMethodName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VerifySpeed_IOS16OtpResponseModelV18nextSendMethodNameSSvp",
+            "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV18nextSendMethodNameSSvp",
+            "moduleName": "VerifySpeed_IOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VerifySpeed_IOS16OtpResponseModelV18nextSendMethodNameSSvg",
+                "mangledName": "$s15VerifySpeed_IOS16OtpResponseModelV18nextSendMethodNameSSvg",
+                "moduleName": "VerifySpeed_IOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "nextSendAvailableAt",
             "printedName": "nextSendAvailableAt",
             "children": [
@@ -1943,70 +1987,70 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 33,
       "value": "\"https:\/\/api.verifyspeed.com\/v1\/\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 357,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 390,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 4158,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeed.swift",
       "kind": "BooleanLiteral",
       "offset": 17103,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 91,
       "length": 18,
       "value": "\"telegram-message\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 18,
       "value": "\"whatsapp-message\""
     },
     {
-      "filePath": "\/Users\/rekananwar\/Desktop\/Projects\/VerifySpeed\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
+      "filePath": "\/Users\/rekananwar\/Desktop\/Use-This-For-Dynamic-OTP\/VerifySpeed_IOS\/VerifySpeed_IOS\/VerifySpeedMethodType.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 15,
